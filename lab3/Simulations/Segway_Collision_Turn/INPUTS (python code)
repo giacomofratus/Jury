@@ -1,0 +1,5 @@
+#Sidharth - Segway2:(Collision and Sharp Turn)
+Arena1= Arena(init_state=[5000,5000,180],robotType = 'Segway', dt=0.001)
+Arena1.simulate(table=[[0,0,0],[15,150,150],[20,70,-100]])
+Arena1.plot_state()
+Arena1.export_csv()
