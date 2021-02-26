@@ -1,0 +1,5 @@
+Python Simulation: Generates inputs and outputs for a given motor input
+
+Controller: Feeds Simulation inputs to weBots, generates sensor outputs
+
+Analysis: Compares data across python and weBots
