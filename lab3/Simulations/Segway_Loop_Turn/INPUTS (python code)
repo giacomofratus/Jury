@@ -1,0 +1,5 @@
+#Sidharth - Segway3:(Routes Intersect, Sharp Turn)
+Arena1= Arena(init_state=[5000,5000,180],robotType = 'Segway', dt=0.001)
+Arena1.simulate(table=[[0,0,0],[3,80,20],[7,100,-100],[9,20,20],[12,-150,100],[13,70,-100],[14,100,-100],[15,100,-100]])
+Arena1.plot_state()
+Arena1.export_csv()
